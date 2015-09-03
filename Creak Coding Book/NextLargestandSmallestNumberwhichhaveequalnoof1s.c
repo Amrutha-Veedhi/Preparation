@@ -1,0 +1,34 @@
+#include<stdio.h>
+main(){
+	int Number,Count=0,Dummy,Dummy1,Count1=0;
+	scanf("%d",&Number);
+	Dummy=Number;
+	while(Dummy){
+		Dummy=(Dummy&(Dummy-1));
+		Count++;
+	}
+	for(Dummy=Number+1;;Dummy++){
+		Dummy1=Dummy;
+		Count1=0;
+		while(Dummy1){
+			Dummy1=(Dummy1&(Dummy1-1));
+			Count1++;
+		}
+		if(Count1==Count){
+			printf("%d\n",Dummy);
+			break;
+		}
+	}
+	for(Dummy=Number-1;;Dummy--){
+		Dummy1=Dummy;
+		Count1=0;
+		while(Dummy1){
+			Dummy1=(Dummy1&(Dummy1-1));
+			Count1++;
+		}
+		if(Count1==Count){
+			printf("%d\n",Dummy);
+			break;
+		}
+	}
+}

@@ -1,0 +1,68 @@
+1) We all have studied and perfected multiplication by working out the details on paper. This Proplem asks you to output "details/steps", given in the numbers.
+
+Input:
+325 4405
+Output:
+    325
+  *4405
+  -----
+   1625
+   000
+ 1300
+1300
+-------
+1431625
+
+2) Write a program that will accept a sentence of text in any convenient way and print out the sentence in a column of 20 characters wide. Words at the end of line that would lenghten the line beyond 20 characters must be moved to the next line. Spaces must be added between the words so that each line except the last is exactly 20 characters wide. In a line space between words are almost same. This is called Justifying Text.
+
+Input:
+A great discovery solves a great problem but there is a grain of discovery in the solution of any probelm.
+
+Output:
+A   great  discovery
+solves    a    great
+problem but there is
+a grain of discovery 
+in  the  solution of
+any problem.
+
+
+3) Every phony prime number can be expressed as the multiplication of only prime numbers. For example say x = n1 * n2 * n3. x is phony prime number only and only when n1,n2 and n3 are all prime numbers(n1 n2 and n3 are distinct). Your job is to print phony numbers present in a certain range. Output the list of phony primes in increasing order, one per line if many. If there are no phony primes in the range print NONE.
+
+Input:
+10 25
+Output:
+14
+15
+21
+22
+
+4) Given any number n (0<n<10) print the below structure
+
+Input:
+3
+
+Output:
+  1
+ 121
+12321
+ 121
+  1
+
+5) Print a calender view of a Month, when given day of first sunday and number of days in the month
+Input:
+7 31
+
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30
+
+
+
+
+
+
+

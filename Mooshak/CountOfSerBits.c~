@@ -1,0 +1,16 @@
+#include<stdio.h>
+void NoOfBits(unsigned long long int Number){
+	int Count=0;
+	while(Number){
+		Number=Number&(Number-1);
+		Count++;
+	}
+}
+int main(void){
+	unsigned long long int Number;
+	int Count;
+	scanf("%lld",&Number);
+	NoOfBits(Number);
+	printf("%d",Count);
+	return 0;
+}
